@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height:80vh;
+
+}
+.fa-search{
+
+display: block;
+  text-align: center;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+}
+.nav-icon a{
+    text-decoration: none;
+    margin-left:40px;
+
+}
+.nav-search{
+    text-decoration: none;
+    margin:10px;
+    padding: 5px;
+    height: 20px;
+    width:20px;
+    border:2px solid black;
+    border-radius: 10px;
+    color:black;
+    padding:5px 40px;
+    margin-left:2px;
+    margin-right: 10px;
+
+}
+
+
+.brand-img{
+    position:fixed;
+    top:5px;
+    width:80px;
+    height:20px;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left:60px;
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top:30px;
+    margin-right:50px;
+    color:black;
+    margin-bottom: 80px;
+    font-style:initial;
+
+
+     
+}
+.nav-link{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    margin-bottom: 80px;
+}
+.col-1{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+ /* .image2{
+    position:relative;
+    top:55px;
+    right:100px; 
+} */
+.image2{
+    position: absolute;
+    bottom:-5px;
+    margin-left:180px;
+    left:0;
+    bottom: 110px;
+    z-index: -1; 
+    
+
+}
+ .image1{
+    position: relative;
+    top:10px;
+    left:20px;
+} 
+.col-2{
+    text-align: center;
+    position: relative;
+    bottom: 320px;
+    margin-left: 30px;
+}
+.div h1{
+    font-size: xx-large;
+}
+.logo{
+    position: relative;
+    bottom: 220px;
+    left:740px;
+    right:30px;
+}
+.heading{
+    position: relative;
+    margin-top: 5px;
+    font-size:xx-large;
+    left:100px;
+    font-size: 50px;
+}
+.paragrap{
+    position: relative;
+    margin-top: 5px;
+    top:20px;
+    bottom: 50px;
+    left:100px;
+}
+.Email{
+    position: relative;
+    top:70px;
+    bottom:20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: none;
+    border:1px light black;
+    margin-left: 190px;
+}
+.Join{
+    position:relative;
+    top:70px;
+    bottom: 20px;
+    left:10px;
+    padding:5px 25px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.contact{
+     position: relative;
+     top:90px;
+     right:5px;
+     left:100px;
+    
+}
+.nav-items:first-child{
+    text-decoration: dashed;
+    font-style: bold;
+}
+.globe{
+    position: relative;
+    right:70px;
+    bottom: 30px;
+}
+.star{
+    position: relative;
+    left:200px;
+    bottom:30px;
+}
+.nav-home{
+    text-decoration: underline;
+    font-style: bold;
+    font-weight: 100;
+}

@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+
+}
+.brand-img{
+      width:80px;
+      height:20px;
+      list-style-type: none;
+      margin-left: 2px;
+
+    
+
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.nav-menu-icon{
+    display: none;
+
+}
+.nav-items{
+   display:flex;
+   flex:2;
+   list-style-type: none;
+}
+.col-2{
+   position: absolute;
+   bottom:110px;
+   right:5%;
+   height:70%;
+
+}
+.container{
+    margin-left:50px;
+    margin-top: 70px;
+
+}
+.col-1{
+    font-size:larger;
+    font-style: bold;
+}
+.crush{
+    color: blue;
+}
+.paragrap{
+    font-size: smaller;
+}
+.btn-button{
+    background-color: rgb(53, 53, 227);
+    color: white;
+    border: 2px;
+    border-radius: 10px;
+    padding:  18px 30px;
+    margin: 10px;
+
+}
+.nav-button{
+    background-color: rgb(53, 53, 227);
+    color:white;
+    border:2px;
+    border-radius: 7px;
+    padding: 12px 20px;
+    margin-left: 600px;
+    margin-bottom:2px;
+   
+    
+}
+.nav-logo{
+    margin-top: 70px;
+    margin-left: 40px;
+
+}
